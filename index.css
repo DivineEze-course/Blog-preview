@@ -1,0 +1,66 @@
+body {
+    background-color: hsl(47 , 88% , 63%);
+    display : flex;
+    justify-content: center;  
+    font-family:figtree;   
+}
+@font-face{
+    font-family: figtree;
+    src : url(https://fonts.google.com/specimen/Figtree);
+}
+#main {
+    margin-top:100px;
+    text-align: left;
+    border: 1px, solid , black;
+    border-right-width: 10px;
+    border-bottom-width:10px;
+    width:300px;
+    border-radius: 20px;
+    padding : 20px;
+    background-color: white;
+    padding-bottom:0;
+}
+h1{
+    font-size:25px;
+}
+#img3{
+    width:100%;
+    border-radius : 10px;
+}
+h1:hover{
+    color:hsl(47 , 88% , 63%);
+}
+#learning{
+    
+    padding : 7px;
+    width:fit-content;
+    border-radius: 5px;
+    background-color:hsl(47 , 88% , 63%);
+    font-weight: bold;
+}
+#published{
+    color: hsl(0, 0%, 7%);
+}
+#paragraph{
+    color:Gray ;
+}
+#profile{
+ font-size: 13px;
+ display:flex; 
+ align-items: center;
+ gap:4px;  
+}
+#pfp{
+    width:30px;
+}
+
+  
+   
+    
+
+   
+
+
+
+
+
